@@ -16,7 +16,7 @@
     <div id="container">
         <nav id="nav">
             <div id="mobile-nav">
-                <h1>&lt;Code-Wod/&gt;</h1>
+                <h1 class="code-wod">&lt;Code-Wod/&gt;</h1>
                 <div id="mobile-search">
                     <i class="fas fa-search menu-hover"></i>
                 </div>
@@ -33,7 +33,7 @@
                 </ul>
             </div>
             <div id="desktop-nav">
-                <h1>&lt;Code-Wod/&gt;</h1>
+                <h1 class="code-wod">&lt;Code-Wod/&gt;</h1>
                 <div 
                 id="nav-center">
                     <h2 <?php if(is_front_page()) echo 'class="page-selected"'?>><a href="<?php echo site_url('');?>">Current Workout</a></h2>

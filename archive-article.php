@@ -1,6 +1,6 @@
  <?php get_header(); 
 
-?> 
+?> archive-article
 <section class="summary-section section-divider">
 <?php
  $the_query = new WP_Query( array('posts_per_page'=>6,

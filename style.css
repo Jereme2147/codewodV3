@@ -103,6 +103,10 @@ body {
   }
 }
 
+.code-wod {
+  font-family: "Merienda One", cursive;
+}
+
 #menu-icon {
   height: 100%;
   padding: 5px 10px 5px 5px;
@@ -549,6 +553,10 @@ main {
 
 .no-link a:hover {
   color: #f71735;
+}
+
+#workout {
+  padding: 10px;
 }
 
 footer {

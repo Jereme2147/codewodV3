@@ -2,8 +2,11 @@
         while(have_posts()) {
             the_post();
     ?>
+    single 
 <!-- single for single blogs or articles.  KEEP -->
- <h2 class="page-heading"><?php the_title(); ?> </h2>
+ <h2 class="page-heading"><?php if (get_post_type() == 'post'){
+     echo ' ';
+ } else { echo the_title();} ?> </h2>
             <section class="wods todays-workout">
             <?php
                 if (get_the_post_thumbnail_url(get_the_ID())) {

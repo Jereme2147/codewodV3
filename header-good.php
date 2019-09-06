@@ -12,7 +12,7 @@
     <title>Code-wod Workouts for Firefighters Police EMS Military and everyone else</title>
 
 </head>
-<body id="contact-body">
+<body>
     <div id="container">
         <nav id="nav">
             <div id="mobile-nav">
@@ -62,8 +62,7 @@
         <!-- <div id="banner">
         </div> -->
 
-        <div id="contact-logo-div" class="custom-banner">
-              <!-- inserted from JS -->
+        <div id="logo-div">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/logo900.png" alt="">
         </div>
-        
         <main>

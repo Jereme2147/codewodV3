@@ -103,6 +103,9 @@ body {
     }
 }
 
+.code-wod {
+    font-family: $cursive;
+}
 #menu-icon {
     height: 100%;
     padding: 5px 10px 5px 5px;
@@ -437,6 +440,9 @@ main {
         }
     }
 }
+#workout {
+    padding: 10px;
+}
 // End sections style ****************************************
 // Begin footer style **********************************
 footer {
@@ -462,7 +468,7 @@ footer {
     align-items: center;
     font-family: $title;
     @include desktop() {
-        width: 50%;
+        width: 50%; 
         font-size: 25px;
         
     }
